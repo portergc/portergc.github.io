@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/icon.png" type="image/png">
+    <title>Chat</title>
+    <script src="styling-obf.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-messages"></div>
+        <div id="typing-status" class="typing-status"></div>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+    </div>
+
+    <div id="status-popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup" class="close">&times;</span>
+            <p id="status-message"></p>
+        </div>
+    </div>
+    <script type="module" src="script-obf.js"></script>
+</body>
+</html>
